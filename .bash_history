@@ -112,3 +112,68 @@ git branch Prod
 git branch 
 git checkout -b "Stag"
 git branch
+git status
+git branch -d dev
+git branch
+git remote -v
+git branch dev
+git branch
+git push dileeprepo master dev
+git tag
+git tag dileeptag
+git tag
+git tag dileeptag v1.0.0
+git tag dileeptagv1.0.0
+git tag
+git tag -d dileeptag
+git tag
+git push dileeprepo tag dileeptagv1.0.0
+git stash
+vi xyz.txt
+git stash
+git stash list
+vi xyz.txt
+git stash
+cat xyz.txt
+more xyz.txt
+git stash apply
+cat xyz.txt
+git stash list
+git stash apply stash@{0}
+cat xyz.txt
+git commit -a -m "Modified xyz"
+git stash apply stash@{0}
+cat xyz.txt
+git status
+ls -l
+git branch
+git checkout -b master
+git checkout master
+git push dileeprepo --all
+git checkout "master"
+git reset --merge
+git checkout "master"
+git branch
+git remote -v
+git status
+touch xyz.txt
+git status
+git add .
+git status
+git commit -m "Adding xzy"
+git status
+git push dileeprepo master prod
+ls -l
+git push dileeprepo master
+git reset --merge
+ls -l
+git status
+git branch
+git push dileeprepo master
+git push origin master -f
+git push dileeprepo master -f
+git push dileeprepo master dev
+ls -l
+git push dileeprepo master xyz.txt
+git push dileeprepo master xyz.txt -f
+git push dileeprepo master xyz.txt --force
